@@ -12,7 +12,7 @@ class CategorieSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      height: 340,
       child: ListView.builder(
           shrinkWrap: true,
           scrollDirection: Axis.horizontal,
@@ -23,7 +23,7 @@ class CategorieSection extends StatelessWidget {
                 child: Column(
                   children: [
                     Container(
-                      height: 50,
+                      height: 300,
                       width: 200,
                       margin:
                           EdgeInsets.symmetric(horizontal: 15, vertical: 20),
@@ -60,7 +60,7 @@ class CategorieSection extends StatelessWidget {
                                   ),
                                   child: Image.asset(
                                     "images/${dechet[index]}.jpg",
-                                    height: 100,
+                                    height: 200,
                                     width: 200,
                                     fit: BoxFit.cover,
                                   ),
